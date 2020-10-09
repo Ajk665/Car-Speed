@@ -27,6 +27,6 @@ function draw() {
               car.shapeColor = color(0,255,0);
      }
   }
-
+  console.log(car.x - wall.x);
   drawSprites();
 }
